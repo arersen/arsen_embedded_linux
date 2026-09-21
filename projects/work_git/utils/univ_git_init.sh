@@ -97,8 +97,8 @@ else
         git config --local user.name "$USER_NAME"
         git config --local user.email "$USER_EMAIL"
         echo "# $DIR_NAME" > README.md
-        git add README.md
-        git commit -m "Initial commit"
+        # git add README.md
+        # git commit -m "Initial commit"
         git remote add origin "$REMOTE_URL"
         echo "Репозиторій ініціалізовано та додано remote: $REMOTE_URL"
     fi
